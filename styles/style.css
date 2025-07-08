@@ -1,0 +1,41 @@
+body {
+    color;
+}
+
+.logo {
+    width: 110px;
+    height: 110px;
+    background: #00000000;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    padding: 1px 30px;
+    background-color: white;
+}
+
+nav {
+    display:flex;
+    justify-content:right
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 35px;
+  color: #444444;
+  font-size: 20px;
+}
+
+nav :hover {
+    color: #E07A5F;
+}
+
+.why {
+    background-color: #F4F1DE;
+}
+
+.blocks {
+    background-color:#81B29A; 
+}
