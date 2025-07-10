@@ -168,3 +168,95 @@ footer p {
 footer p :hover {
     color: black;
 }
+
+
+
+/* Below this is the css for the menu page */
+
+#menu-page{
+    background-color: #F4F1DE;
+}
+.green-top{
+    background-color:#81B29A; 
+    color:#F4F1DE;
+    padding: 50px;
+}
+
+.green-top h2{
+    font-size: 72px;
+    font-weight: 300;
+    font-family: "Raleway";
+}
+
+.green-top p{
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+.menu-wrapper{
+    background-color: #F4F1DE;
+    color: rgb(58, 89, 89);
+    padding: 50px 300px 50px 150px;
+}
+
+.menu-item{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    margin: 50px;
+    height: 20vw;
+    color: #F4F1DE;
+}
+
+.menu-title{
+    font-size: 3vw;
+    font-family: Raleway, sans-serif;
+    padding: 10px;
+    background-color: #E07A5F;
+    border-radius: 20px 0 0 0;
+
+}
+
+.menu-list{
+    grid-column: 1 / 2;
+    list-style-position: inside;
+    padding: 10px;
+    background-color: #E07A5F;
+    border-radius: 0 0 0 20px;
+    font-size: 1.5vw;
+}
+
+.menu-list li{
+    padding: 5px;
+}
+
+.menu-pic  {
+    width: 100%;
+    height: 100%;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    border-radius: 0 20px 20px 0 ;
+}
+
+.tips {
+    background-color: #F2CC8F;
+    color: rgb(58, 89, 89);
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tips-title{
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-family: "Pacifico", cursive;
+    padding: 20px;
+}
+
+.tips-list{
+    font-size: 20px;
+    list-style-position: inside;
+    font-family: Raleway, sans-serif;
+    padding-left: 40px;
+}
